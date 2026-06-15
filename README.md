@@ -19,7 +19,7 @@ A fully functional, lag-free portable retro gaming console built from scratch us
 ## 💾 OS Installation: Flashing RetroPie with Raspberry Pi Imager
 
 To bring the hardware to life, the RetroPie operating system needs to be flashed onto the MicroSD card. Here is the step-by-step process using the official **Raspberry Pi Imager**:
->>**official Raspberry Pi Imager download link:** http://raspberrypi.com/software/
+> **📌 Official Raspberry Pi Imager download link:** http://raspberrypi.com/software/
 1. **Insert the MicroSD Card:** Plug the 16GB MicroSD card into your computer's card reader.
 2. **Launch the Imager:** Open the **Raspberry Pi Imager** application.
 3. **Choose Device:** Click on "Choose Device" and select **Raspberry Pi 3**.
