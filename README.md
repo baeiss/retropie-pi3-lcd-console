@@ -51,3 +51,22 @@ git clone https://github.com/waveshare/LCD-show.git
 cd LCD-show/
 chmod +x LCD32-show
 ./LCD32-show
+```
+
+### Method B: Direct Setup via HDMI & Keyboard (No SSH)
+If you skipped the SSH configuration during the flashing process, you must use an external monitor and a physical keyboard to install the drivers.
+
+1. **Hardware Connections:** Connect the Raspberry Pi to a monitor or TV using an **HDMI cable**. Plug in your **USB Gamepad** and a **USB Keyboard**, then power on the device. (The system will output video via HDMI normally).
+2. **Map the Gamepad:** EmulationStation will boot up and display a welcome screen. Hold any button on your gamepad and follow the on-screen prompts to map your controls. Once finished, you will reach the main menu.
+3. **Connect to Wi-Fi:** * Using your gamepad, navigate to the **RetroPie** menu and select **WIFI**.
+   * First, select **Set Wi-Fi Country** and choose your region. *(Important: The Pi cannot connect to the internet until the country is set).*
+   * Next, select **Connect to WiFi network**, choose your network, and type your password using the USB keyboard.
+4. **Access the Terminal:** Once connected to the internet, exit back to the main EmulationStation screen. Press **`F4`** on your USB keyboard to close the graphical interface and drop into the command-line console. *(Note: This action requires a physical keyboard; the gamepad cannot trigger this).*
+5. **Install the TFT Drivers:** Type the following commands exactly as shown, pressing `Enter` after each line:
+
+```bash
+git clone https://github.com/waveshare/LCD-show.git
+cd LCD-show/
+chmod +x LCD32-show
+./LCD32-show
+```
