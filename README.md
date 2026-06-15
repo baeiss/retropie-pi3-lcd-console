@@ -70,3 +70,18 @@ cd LCD-show/
 chmod +x LCD32-show
 ./LCD32-show
 ```
+
+## 🎮 Fixing In-Game Controller Issues (Input Reset)
+
+If you followed **Method B** and used a physical keyboard during the setup, you might encounter an issue where your gamepad works perfectly in the main menu but **does not work or is completely unresponsive inside the games**. To fix this, you need to wipe the mixed input configurations.
+
+Here is the step-by-step fix:
+
+1. **Access RetroPie Setup:** From the main EmulationStation menu, navigate to the **RetroPie** screen and select **RetroPie Setup**.
+2. **Configuration Tools:** Scroll down the list and select **Configuration Tools**.
+3. **Find EmulationStation:** Scroll down until you find **emulationstation** and open it.
+4. **Clear Configurations:** Select **Clear/Reset Emulation Station input configuration**. It will prompt a warning; confirm it by selecting **Yes**, then hit **OK**.
+5. **Safe Reboot (CRITICAL STEP):** *Do not press the back button repeatedly to exit!* Since the configs are wiped, your controller is now disabled. Pulling the power cord can corrupt your SD card. Instead, select **Cancel**, then **Back**, and scroll to the bottom of the main list to select **Perform reboot**.
+6. **Fresh Remap:** When the system reboots, you will be greeted by the initial EmulationStation Welcome screen. Hold any button on your gamepad to freshly remap your inputs. 
+
+Your gamepad will now work perfectly both in EmulationStation and inside all game emulators!
