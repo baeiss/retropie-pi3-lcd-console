@@ -41,8 +41,9 @@ To bring the hardware to life, the RetroPie operating system needs to be flashed
 ### Method A: Headless Setup via SSH (Recommended)
 If you checked **"Enable SSH"** and **"Configure Wireless LAN"** in Raspberry Pi Imager before flashing the SD card, you don't need an external monitor or keyboard.
 
-1. **Find Your Pi's IP Address:** Turn on the Pi and wait a minute. 1. Open CMD on your computer and type `ping retropie.local`. The resulting IP address is your Pi's address. 2. **Connect via SSH:** [PuTTY] Download and open https://www.putty.org/. Enter the IP address, ensure the Port is 22, and click Open. Log in with your configured credentials.
-
+**Find Your Pi's IP Address:** Turn on the Pi and wait a minute.
+1. Open CMD on your computer and type `ping retropie.local`. The resulting IP address is your Pi's address.
+2. **Connect via SSH:** [PuTTY] Download and open https://www.putty.org/. Enter the IP address, ensure the Port is 22, and click Open. Log in with your configured credentials.
 3. **Install drivers:** Run the following commands in the terminal:
 
 ```bash
