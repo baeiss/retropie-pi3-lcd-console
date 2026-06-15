@@ -7,6 +7,7 @@ A fully functional, lag-free portable retro gaming console built from scratch us
 ## ⚙️ Hardware Components (BOM)
 *   **SBC:** Raspberry Pi 3 Model B V1.2
 *   **Display:** WaveShare SpotPear 3.2" RPi LCD V4 (Pin-to-pin SPI connection)
+*   **Storage:** 16GB MicroSD Card (Minimum 8GB recommended for RetroPie OS and game ROMs)
 *   **Controller:** 2.4GHz Wireless USB Gamepad
 
 
