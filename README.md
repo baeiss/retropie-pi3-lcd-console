@@ -47,7 +47,7 @@ If you checked **"Enable SSH"** and **"Configure Wireless LAN"** in Raspberry Pi
 3. **Install drivers:** Run the following commands in the terminal:
 
 ```bash
-git clone [https://github.com/waveshare/LCD-show.git](https://github.com/waveshare/LCD-show.git)
+git clone https://github.com/waveshare/LCD-show.git
 cd LCD-show/
 chmod +x LCD32-show
 ./LCD32-show
